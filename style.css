@@ -71,7 +71,6 @@ section {
     justify-content: center;
     align-items: center ;
 }
-/* ========== Footer ==========*/
 
 .card{
     margin-top: 1vmin;
@@ -198,7 +197,7 @@ iframe{
 }
 footer {
     background: #FFC4C4;
-    padding: 3em;
+    text-align: center;
 }
 #section-2 {
     display: flex;
