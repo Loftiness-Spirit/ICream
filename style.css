@@ -1,0 +1,328 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-size: 2vmin;
+}
+body {
+    background: #FFF5E4;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    text-align: center;    
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    padding: 1vmin 2vmin;
+    background: #FFC4C4;
+    box-shadow: 0 0.5vmin 2vmin 0.5vmin #ffa7a7;
+    z-index: 10;
+}
+#logo-ref{
+    display: flex;
+    font-size: 4vmin;
+    font-family: sans-serif;
+    text-decoration: none;
+    align-items: center;
+    color: rgb(255, 114, 145);
+}
+#logo {
+    width: 5vmin;
+    transition: 0.3s;
+}
+#logo:hover {
+    transform: scale(1.2);
+}
+nav {
+    /* margin-left: 30vmin; */
+    justify-content: space-around;
+    width: max-content;
+}
+nav a {
+    text-decoration: none;
+    align-items: center;
+    color: rgb(255, 114, 145);    /* #850E35 */
+    margin-left: 2vmin;
+    margin-right: 2vmin;
+    padding: 1em 1em;
+    font-size: 2vmin;
+    border: 0.3vmin solid transparent;
+    border-radius: 0.3em;
+    transition: 0.3s;
+}
+nav a:hover {
+    color: #FFF5E4;
+    border: 0.3vmin solid rgb(255, 114, 145);  
+    
+}
+.menu img{
+    margin-left: 2vmin;
+}
+section {
+    
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center ;
+}
+/* ========== Footer ==========*/
+
+.card{
+    margin-top: 1vmin;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+    flex-direction: column;
+    width: 30vmin;
+    /* height: 320px; */
+    border-radius: 2vmin;
+    background: #ffebc7;        
+    font-size: 2vmin;
+    padding: 2vmin;
+    transition: all 0.3s linear;
+    box-shadow: 0px 0px 2vmin 0.5vmin #ffa7a788;    
+
+}
+.container{
+    width: 100%;    
+    grid-gap: 2vmin;
+    color:black;    
+    margin: 2vmin auto;
+    display: grid;
+    grid-template-columns: repeat(2,30vmin);
+    grid-template-rows: repeat(2,auto);
+}
+.content-container{    
+    margin-top: 6vmin;
+    grid-gap: 2vmin;
+    width: 126vmin;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(30vmin, 1fr));    
+}
+a{
+    text-decoration: none;
+    width: 30vmin;
+    color: rgb(255, 114, 145);
+}
+span{
+    color: rgba(255, 114, 145, 0.842);
+}
+h1{
+    
+    font-size: 4vmin;
+    color: #bb0c46;
+}
+h4{
+    font-size: 3vmin;
+    color: #bb0c46;
+}
+p{
+    color: #bb0c46;
+}
+.content{
+    display: grid;        
+    justify-items: center;
+    align-items: center;
+}
+.upper{
+    text-align: center;
+}
+.info { 
+    color: #bb0c46;
+    width: 100vmin;
+}
+.info h2{
+    font-size: 3vmin;
+}
+.size1{
+    width: 23vmin;
+    height: 23vmin;
+}
+.size2{
+    width: 46.4vmin;
+    height: 46.4vmin;
+}
+.buy{
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    height: max-content;
+    padding: 1vmin;
+}
+
+.buy h2{
+    font-size: 3vmin;
+    padding: 1vmin;
+}
+
+button{
+    padding: 1vmin;
+    width: 20vmin;
+    height: 4vmin;
+    border-radius: 2vmin;;
+    font-size: 2vmin;
+    border: transparent;
+    color:#850E35;    
+    cursor: pointer;
+    background: #FFD1D1;
+    transition: all 0.3s linear;
+}
+button:hover{
+    background: rgb(255, 182, 182);
+    color:#850E35;
+}
+
+.contacts{
+    display: flex;
+    width: 100vmin;
+    justify-content: space-around;
+}
+.contacts h2{
+    text-align: left;    
+    font-size: 3vmin;
+    color:#850E35; 
+}
+.contacts .text{
+    padding-bottom: 5vmin;
+}
+iframe{
+    width: 50vmin;
+    height: 40vmin;
+}
+footer {
+    background: #FFC4C4;
+    padding: 3em;
+}
+#section-2 {
+    display: flex;
+}
+#section-2 .inside{
+    width: 80%;
+    padding: 1vmin;
+}
+#section-2 .inside h2{
+    width: 100%;
+    color: rgba(255, 114, 145, 0.842);;
+    font-size: 3vmin;
+    text-align: center;
+    margin-bottom: 1vmin;
+}
+#section-2 .inside .row100{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30vmin,1fr));
+}
+#section-2 .inside .row100 .col{
+    position: relative;
+    width: 100%;
+    padding: 0 1vmin;
+    margin: 2.5vmin 0 1vmin;
+    transition: 0.5s;
+}
+#section-2 .inside .row100 .inputBox{
+    position: relative;
+    width: 100%;
+    height: 3vmin;
+    color: rgba(255, 114, 145, 0.842);;
+}
+#section-2 .inside .row100 .inputBox input,
+#section-2 .inside .row100 .inputBox.textarea textarea{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    font-size: 2vmin;
+    padding: 0 1vmin;
+    z-index: 1;
+    color: #fff;
+}
+#section-2 .inside .row100 .inputBox .text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 2vmin;    
+    font-size: 2vmin;
+    padding: 0 1vmin;
+    display: block;
+    transition: 0.5s;
+    pointer-events: none;
+}
+#section-2 .inside .row100 .inputBox input:focus + .text,
+#section-2 .inside .row100 .inputBox input:valid + .text{
+    top: -2.5vmin;
+    left: -1vmin;
+}
+#section-2 .inside .row100 .inputBox .line{
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 0.2vmin;
+    background: rgba(255, 114, 145, 0.842);;
+    transition: 0.5s;
+    border-radius: 0.2vmin;
+    pointer-events: none;
+}
+#section-2 .inside .row100 .inputBox input:focus ~ .line,
+#section-2 .inside .row100 .inputBox input:valid ~ .line{
+    height: 100%;
+}
+#section-2 .inside .row100 .inputBox .textarea{
+    position: relative;
+    width: 100%;
+    height: 20vmin;
+    
+}
+#section-2 .inside .row100 .inputBox.textarea textarea{
+    padding: 0.3vmin 1vmin;
+    height: 100%;
+    resize: none;
+}
+#section-2 .inside .row100 .inputBox textarea:focus + .text,
+#section-2 .inside .row100 .inputBox textarea:valid + .text{
+    top: -2.5vmin;
+    left: -1vmin;
+}
+#section-2 .inside .row100 .inputBox textarea:focus ~ .line,
+#section-2 .inside .row100 .inputBox textarea:valid ~ .line{
+    height: 100%;
+}
+input[type="button"]{
+    padding: 1vmin;
+    width: 20vmin;
+    height: 4vmin;
+    border-radius: 2vmin;;
+    font-size: 2vmin;
+    border: transparent;
+    color:#850E35;    
+    cursor: pointer;
+    background: #FFD1D1;
+    transition: all 0.3s linear;
+}
+@media (max-width: 712px)
+{
+    .contacts{
+        width: max-content;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contacts .text{
+        align-items: center;        
+        justify-content: center;
+    }
+    #section-2 .inside .row100
+    {
+        grid-template-columns: unset !important;
+    }
+}
