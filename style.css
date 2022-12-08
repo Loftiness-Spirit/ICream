@@ -196,8 +196,14 @@ iframe{
     height: 40vmin;
 }
 footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: #FFC4C4;
-    text-align: center;
+    color:#850E35;
+    height: 10vmin;
+    font-size: 2vmin;
+    padding: 3em;    
 }
 #section-2 {
     display: flex;
