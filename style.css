@@ -63,6 +63,11 @@ nav a:hover {
 .menu img{
     margin-left: 2vmin;
 }
+.right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 section {
     
     display: grid;
@@ -314,6 +319,20 @@ input[type="button"]{
     cursor: pointer;
     background: #FFD1D1;
     transition: all 0.3s linear;
+}
+
+.cart{
+    display: flex;
+    flex-direction: column;
+}
+
+.cart h2{
+    padding: 2vmin;
+    font-size: 3vmin;
+}
+.cart p{
+    display: flex;
+    flex-direction: column;
 }
 @media (max-width: 712px)
 {
