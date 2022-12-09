@@ -139,7 +139,7 @@ p{
 }
 .info { 
     color: #bb0c46;
-/*     width: 100vmin; */
+    width: 100vmin;
 }
 .info h2{
     font-size: 3vmin;
