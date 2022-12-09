@@ -180,6 +180,9 @@ button{
     cursor: pointer;
     background: #FFD1D1;
     transition: all 0.3s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 button:hover{
     background: rgb(255, 182, 182);
@@ -360,16 +363,16 @@ input[type="submit"]:hover{
         grid-template-columns: unset !important;
     }
     .card{
-        width: 100vw;
+        width: 95vw;
     }
     .container
     {
-        width: 100vw;
+        width: 95vw;
         grid-template-columns: unset !important;
     }
     .content-container
     {
-        width: 100vw;
+        width: 95vw;
         grid-template-columns: unset !important;
     }
 }
