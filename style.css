@@ -364,4 +364,9 @@ input[type="submit"]:hover{
         width: 100vw;
         grid-template-columns: unset !important;
     }
+    .content-container
+    {
+        width: 100vw;
+        grid-template-columns: unset !important;
+    }
 }
